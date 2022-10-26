@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 34" width="23" height="34">
+	<title>Arrow</title>
+	<style>
+		.s0 { fill: none;stroke: #d4d4d4;stroke-width: 1.5 } 
+	</style>
+	<g id="Arrow">
+		<path id="Rectangle 2" class="s0" d="m23 22.5c0 6.4-5.1 11.5-11.5 11.5-6.4 0-11.5-5.1-11.5-11.5v-11c0-6.4 5.1-11.5 11.5-11.5 6.4 0 11.5 5.1 11.5 11.5z"/>
+		<path id="Path 1" class="s0" d="m11.5 0v18.3"/>
+		<path id="Path 2" class="s0" d="m16.4 14.6l-4.9 4.8-4.9-4.8"/>
+	</g>
+</svg>

@@ -1,0 +1,68 @@
+$primary_color: #0B0D39
+$grey_invert_color: #1A1C46
+
+body.dark__mode
+    background-color: $primary_color
+    color: #ffffff
+    a
+        color: #ffffff
+    .hamburger
+        .line
+            background-color: #ffffff
+    .btn
+        &.btn-outline
+            border-color: #ffffff
+            color: #ffffff
+            &:before
+                background-color: $primary_color
+                top: 0
+                transform: none
+                left: 0
+    .header__main, .header__menu
+        background-color: $grey_invert_color
+    .header__logo
+        text
+            tspan   
+                &:first-child
+                    fill: #ffffff
+    .header__menu
+        .cta__btns
+            .btn
+                &.btn-outline
+                    border-color: rgba(255, 255, 255, 0.28)
+                    color: #ffffff
+    .grey-bg, .blog__item
+        background-color: $grey_invert_color
+    .our__process, .cta
+        .btn
+            background-color: #356DFF
+            &:hover
+                background-color: $grey_invert_color
+                border-color: #ffffff
+    .testimonial__item, .feature__item .feature__icon::before, .our__process__banner
+        background-color: #2B2D5B
+    .testimonial__slider
+        .swiper-button
+            background-color: #0B0D39
+            &:after
+                background-image: url(../images/arrow-left-white.svg)
+            &:hover
+                background-color: #356DFF
+    .blog__item
+        .blog__des
+            .link
+                svg
+                    path
+                        stroke: #ffffff
+    .social__share
+        li
+            a
+                svg
+                    path
+                        fill: #ffffff
+                    path[stroke="#000"]
+                        stroke: #ffffff
+                        fill: transparent
+    .footer__bottom
+        .copyright
+            border-color: #343468
